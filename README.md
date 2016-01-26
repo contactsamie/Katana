@@ -6,18 +6,25 @@ Katana is the Microsoft implemetation of owin specification
 It exposes four definiions in order to achieve one of many goals of bringing into .NET the same kind of ease with which a web applications can be spawn up as there is in nodejs
 
 1. System Host Absraction aka environment variables env
-#IDictionary<string, object>
+---------------------------
+IDictionary<string, object>
+---------------------------
 
 2. Middleware/Framework Abstraction aka AppFunc
-#Func<env,Task>
+---------------------------
+Func<env,Task>
+---------------------------
 
 3. An Inline Middleware Factory aka Inline IAppBuilder Factory
-#Use(Func<env*,AppFunc next,Task>)
-
+---------------------------
+Use(Func<env*,AppFunc next,Task>)
+---------------------------
 4. A Generic Middleware Factory aka Generic IAppBuilder Factory
-#Use<T>(R options)  
-#where T is new(AppFunc next) and has a method
-#Task Invoke(env)
+---------------------------
+Use<T>(R options)  
+where T is new(AppFunc next) and has a method
+Task Invoke(env)
+---------------------------
 
 env*=new OwinContext(env)
 
