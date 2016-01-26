@@ -1,6 +1,6 @@
 
 # Katana
-About Owin Implemetation
+A Brief Explanation of Owin Implemetation From My Point Of View
 
 Katana is the Microsoft implemetation of owin specification
 
