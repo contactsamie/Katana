@@ -4,7 +4,7 @@ About Owin Implemetation
 
 Katana is the Microsoft implemetation of owin specification
 
-It exposes four definiions in order to achieve one of many goals of bringing into .NET the same kind of ease with which a web applications can be spawn up as there is in nodejs
+It exposes four definitions in order to achieve one of many goals of bringing into .NET the same kind of ease with which a web applications can be spawn up as there is in nodejs
 
 a.System Host Absraction aka environment variables env IDictionary<string, object>
 ---------------------------
